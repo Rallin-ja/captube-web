@@ -10,6 +10,7 @@ header {
 nav a{
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
 h1{
@@ -51,7 +52,7 @@ h1{
 }
 .gif2{
     width: 500px;
-   
+
     border-radius: 20px;
     margin-left: 30px;
         box-shadow: 0 8px 16px navy;
@@ -100,6 +101,10 @@ address {
   box-shadow: 0 8px 16px navy;
   font-family: 'Poppins', sans-serif;
 
+}
+address a {
+    color: navy;
+    text-decoration: none;
 }
 
 
