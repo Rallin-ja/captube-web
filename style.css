@@ -151,6 +151,7 @@ a:hover{
     display: inline-block;
     width: 1000px;
     
+    
 }
 
 .first {
@@ -166,31 +167,35 @@ a:hover{
     
 }
 .cap {
-    border-color: #000080;
+    border-color: black;
     border-width: 3px;
     border-style: solid;
+    
     display: inline-block;
     width: 300px;
     height: 400px;
 }
 .map {
-   border-color: #000080;
+    border-color: black;
     border-width: 3px;
     border-style: solid;
+    border-radius: 20px;
+    object-fit: cover;
     display: inline-block;
     width: 300px;
     height: 400px;
 }
 .arrow {
-    border-color: #000080;
+    border-color: black;
     border-width: 3px;
     border-style: solid;
+    border-radius: 20px;
     display: inline-block;
     width: 300px;
     height: 400px;
 }
 .idea {
-    border-color: #000080;
+    border-color: black;
     border-width: 3px;
     border-style: solid;
     display: inline-block;
@@ -198,7 +203,7 @@ a:hover{
     height: 400px;
 }
 .rocket {
-    border-color: #000080;
+    border-color: black;
     border-width: 3px;
     border-style: solid;
     display: inline-block;
@@ -211,11 +216,12 @@ a:hover{
 .cap {
     margin-right: 100px;
     margin-top: 50px;
-    
+    border-radius: 20px;
 }
 .map {
     margin-left: 100px;
     margin-top: 50px;
+    
 }
 .arrow {
     margin-right: 100px;
@@ -248,7 +254,49 @@ a:hover{
      background-color: #000080;
     color: white;
 }
-
 h1{
     margin-top: 50px;
+}
+.product{
+    border-color: #000080;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 525px;
+}
+
+.poll-container {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100px;
+    background-color: #000080;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+textarea {
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+}
+.cta {
+    text-align: center;
 }
