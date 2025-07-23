@@ -4,46 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CAP-TUBE</title>
+  <link rel="icon" href="assets/captube logo.png" type="image/png" >
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <header>
-    <img src="assets/captube logo.png" alt="my logo" width="50"/>
-    <span>cap-tube</span>
+    <img src="assets/captube logo.png" alt="my logo" width="50" class="logo" style="margin-left: 30px;"/>
+    <span class="companyname" style="margin-right: 30px;">CAP-TUBE</span>
     
       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" >About</a>
-        <a href="follow.html" >Follow us on</a>
-        <a href="contact.html">Contact us</a>
+        <a href="index.html">Home  |</a>
+        <a href="about.html" >About us  |</a>
+        <a href="follow.html" >Follow us on  |</a>
+        <a href="contact.html">Contact us |</a>
       </nav>
  </header>    
- <h1>Feedback</h1>
- <form>
-    <label for="name">name</label>
+ <h1 style="text-decoration: underline;">Feedback</h1>
+ <form class="form" style="text-align: center;">
+    <label for="name" class="name">Name</label>
     <input type="text" id="name" name="name" placeholder="enter your name"><br>
     
-    <label for="email">mail id</label>
+    <label for="email" class="name">Mail id</label>
     <input type="email" id="email" name="email" placeholder="enter your mail id"><br>
  
-    <label for="phone">phone number</label>
+    <label for="phone" class="name">Phone Number</label>
     <input for="number" id="number" name="number" placeholder="enter your phone number">
     <br>
-    <label>who you are</label><br>
-    <input type="checkbox" id="parent" name="parent" required>
-    <label for="parent">parent</label>
-    <input type="checkbox" id="student" name="student" required>
-    <label for="student">student</label>
+    <label>Who you are</label><br>
+    <label for="parent">Parent</label>
+    <input type="radio" id="parent" name="parent" required style="margin-right: 60px";><br>
+    <label for="student">Student</label>
+    <input type="radio" id="student" name="student" required style="margin-right: 68px";>
+    
     <br>
-    <label for="message">what you love about cap-tube</label><br>
+    <label for="message" class="name" style="text-decoration: underline;">What you love about cap-tube</label><br>
     <textarea id="message" name="message" row="10" col="50"requried placeholder="enter what you love"></textarea>
     <br>
-    <label for="message">what's your opinion for improvment</label><br>
+    <label for="message" class="name" style="text-decoration: underline;">What's your opinion for improvment</label><br>
     <textarea id="message" name="message" row="10" col="50"requried placeholder="enter your opinion"></textarea>
     <br>
-    <button type="submit">submit</button>
+    <button type="submit" style="color: green;">submit</button>
  </form>
  <address>
-  CAP-TUBE<br>
+  <strong>CAP-TUBE</strong><br>
   chennai<br>
   Tamilnadu<br>
   <a href="mailto:rallinja05@gmail.com">rallinja05@gmail.com</a><br>

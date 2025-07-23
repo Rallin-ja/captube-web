@@ -106,7 +106,25 @@ address a {
     color: navy;
     text-decoration: none;
 }
-
+.form {
+  max-width: 500px;       
+  margin: auto;           
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px;      
+  box-shadow: 0 0 10px navy;  
+  font-family: POPPINS, sans-serif;
+}
+.name{
+    margin-right: 50px;
+}
+form input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 
 
