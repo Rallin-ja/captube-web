@@ -6,6 +6,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 nav a{
     color: black;
@@ -47,7 +48,7 @@ h1{
    
     border-radius: 20px;
     margin-left: 30px;
-        box-shadow: 0 8px 16px navy;
+    box-shadow: 0 8px 16px navy;
 
 }
 .gif2{
@@ -55,7 +56,7 @@ h1{
 
     border-radius: 20px;
     margin-left: 30px;
-        box-shadow: 0 8px 16px navy;
+    box-shadow: 0 8px 16px navy;
 
 }
 .gif3{
@@ -136,6 +137,7 @@ img,span,nav,a {
 
 nav {
     margin-left: 60%;
+    display: inline;
 }
 
 a:hover{
@@ -143,44 +145,42 @@ a:hover{
     cursor: pointer;
 }
 
-
 .box {
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    display: inline-block;
-    width: 1000px;
-    
-    
+    display: inline;
+        
 }
 
 .first {
     vertical-align: middle;
-    width: 250px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: inline;
+    box-shadow: 0 8px 16px navy;
+     margin-top: 30px;
     
 }
 .one {
     vertical-align: middle;
     display: inline; 
-    
+    font-size: 20px;
+     margin-top: 30px;
+
 }
 .cap {
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    
+    border-radius: 20px;
     display: inline-block;
     width: 300px;
     height: 400px;
+    
 }
 .map {
     border-color: black;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    object-fit: cover;
     display: inline-block;
     width: 300px;
     height: 400px;
@@ -198,6 +198,7 @@ a:hover{
     border-color: black;
     border-width: 3px;
     border-style: solid;
+    border-radius: 20px;
     display: inline-block;
     width: 300px;
     height: 400px;
@@ -206,9 +207,27 @@ a:hover{
     border-color: black;
     border-width: 3px;
     border-style: solid;
+    border-radius: 20px;
     display: inline-block;
     width: 300px;
     height: 400px;
+}
+
+.img1 {
+    border-radius: 20px;
+}
+.img2 {
+    border-radius: 20px;
+    background-color: white;
+}
+.img3 {
+    border-radius: 20px;
+}
+.img4 {
+    border-radius: 20px;
+}
+.img5 {
+    border-radius: 20px;
 }
 .features {
     text-align: center;
@@ -261,25 +280,30 @@ h1{
     border-color: #000080;
     border-width: 3px;
     border-style: solid;
+    border-radius: 20px;
     display: inline-block;
     width: 300px;
     height: 300px;
     text-align: center;
     margin-left: 525px;
+    font-size: 30px;
+    font-weight: bold;
+    
 }
 
 .poll-container {
+    display: flex;
     background-color: white;
     color: black;
-    padding: 30px;
+    padding: 20px;
     width: 350px;
     border-radius: 10px;
     box-shadow: 0 0 15px;
 }
 
 label {
-    display: block;
-    margin: 10px 0;
+    display: flex;
+    margin: 5px 0;
 }
 button {
     margin-top: 15px;
@@ -294,9 +318,50 @@ button {
 
 textarea {
     margin-top: 15px;
+    align-items: center;
     width: 300px;
     height: 50px;
 }
 .cta {
     text-align: center;
 }
+.follow {
+    text-align: center;
+    
+    
+}
+.follow1 {
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 70px;
+    
+  
+}
+.follow2 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top:70px;
+
+}
+.follow3 {
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.follow4 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.follow5 {
+    display: inline-block;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+.follow6 {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+    
