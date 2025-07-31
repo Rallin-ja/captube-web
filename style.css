@@ -141,7 +141,7 @@ nav {
 }
 
 a:hover{
-    color: lightgrey;
+    color: grey;
     cursor: pointer;
 }
 
@@ -156,7 +156,9 @@ a:hover{
     height: 400px;
     display: inline;
     box-shadow: 0 8px 16px navy;
-     margin-top: 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+    
     
 }
 .one {
@@ -299,11 +301,17 @@ h1{
     width: 350px;
     border-radius: 10px;
     box-shadow: 0 0 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
 }
 
 label {
     display: flex;
     margin: 5px 0;
+    align-items: center;
+    
 }
 button {
     margin-top: 15px;
@@ -314,7 +322,9 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    align-items: center;
 }
+
 
 textarea {
     margin-top: 15px;
@@ -327,6 +337,9 @@ textarea {
 }
 .follow {
     text-align: center;
+    justify-content: center;
+    
+    
     
     
 }
@@ -334,34 +347,48 @@ textarea {
     display: inline-block;
     margin-right: 100px;
     margin-top: 70px;
-    
-  
+    text-align: center;
 }
 .follow2 {
     display: inline-block;
     margin-left: 100px;
     margin-top:70px;
+    text-align: center;
 
 }
 .follow3 {
     display: inline-block;
     margin-right: 100px;
     margin-top: 70px;
+    text-align: center;
 }
 .follow4 {
     display: inline-block;
     margin-left: 100px;
     margin-top: 70px;
+    text-align: center;
 }
 .follow5 {
     display: inline-block;
     margin-right: 150px;
     margin-top: 70px;
+    text-align: center;
 }
 .follow6 {
     display: inline-block;
     margin-left: 80px;
     margin-top: 70px;
+    text-align: center;
+}
+.line {
+    width: 4px;
+    height: 400px;
+    background-color: black;
+    margin: 10px auto;
+    
+}
+.name {
+    display: flex;
 }
 
-    
+
