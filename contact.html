@@ -20,31 +20,31 @@
       </nav>
  </header>    
  <h1 style="text-decoration: underline;">Feedback</h1>
- <form class="form" style="text-align: center;">
+ <form class="form" id="feedbackForm" style="text-align: center;">
     <label for="name" class="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="enter your name"><br>
+    <input type="text" id="name" name="name" placeholder="enter your name" required><br>
     
     <label for="email" class="name">Mail id</label>
-    <input type="email" id="email" name="email" placeholder="enter your mail id"><br>
+    <input type="email" id="email" name="email" placeholder="enter your mail id" required><br>
  
-    <label for="phone" class="name">Phone Number</label>
-    <input for="number" id="number" name="number" placeholder="enter your phone number">
+    <label for="number" class="name">Phone Number</label>
+    <input type="text" id="number" name="number" placeholder="enter your phone number" required>
     <br>
     <label>Who you are</label><br>
-    <label for="parent">Parent</label>
-    <input type="radio" id="parent" name="parent" required style="margin-right: 60px";><br>
-    <label for="student">Student</label>
-    <input type="radio" id="student" name="student" required style="margin-right: 68px";>
-    
+    <label for="role-parent">Parent</label>
+    <input type="radio" id="role-parent" name="role" value="Parent" required style="margin-right: 60px;">
+    <label for="role-student">Student</label>
+    <input type="radio" id="role-student" name="role" value="Student" required style="margin-right: 68px;">
     <br>
-    <label for="message" class="name" style="text-decoration: underline;" style="padding-top: 20px;">What you love about cap-tube</label><br>
-    <textarea id="message" name="message" row="10" col="50"requried placeholder="enter what you love"></textarea>
+    <label for="love" class="name" style="text-decoration: underline;">What you love about cap-tube</label><br>
+    <textarea id="love" name="love" rows="3" cols="50" required placeholder="enter what you love"></textarea>
     <br>
-    <label for="message" class="name" style="text-decoration: underline;">What's your opinion for improvment</label><br>
-    <textarea id="message" name="message" row="10" col="50"requried placeholder="enter your opinion"></textarea>
+    <label for="opinion" class="name" style="text-decoration: underline;">What's your opinion for improvement</label><br>
+    <textarea id="opinion" name="opinion" rows="3" cols="50" required placeholder="enter your opinion"></textarea>
     <br>
     <button type="submit" style="background-color: navy;">submit</button>
  </form>
+ <div id="feedbackMsg" style="text-align:center;margin-top:10px;"></div>
  <div class="address">
 <address style="text-align: center;">
   <strong>CAP-TUBE</strong><br>
@@ -54,10 +54,11 @@
   
 </address>
 </div>
-<footer>
+ <footer>
     <P>designed ❣️ cap-tube
     © ALL RIGHTS RESERVED 2025</P>
   </footer>
+<script src="script.js"></script>
 
 
  </body>
