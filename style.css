@@ -385,7 +385,8 @@ textarea {
     height: 400px;
     background-color: black;
     margin: 10px auto;
-    
+    border-radius: 30px;
+
 }
 .name {
     display: flex;
