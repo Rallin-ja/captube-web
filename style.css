@@ -1,6 +1,7 @@
 * {
     font-family: poppins,sans-serif;
 }
+
 nav {
     margin-left: 60%;
     display: inline;
@@ -12,6 +13,7 @@ header {
     
     
 }
+
 nav a{
     color: black;
     font-weight: bold;
@@ -21,12 +23,7 @@ nav a{
 h1{
     text-align: center;
 }
-.logo{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
+
 .logo {
   background-color: navy;
   color:white;
@@ -35,8 +32,9 @@ h1{
   line-height: 100px;
   width: 50px;
   height: 50px;
-  border-radius:50%;
+  
 }
+
 .companyname{
    display: inline; 
    font-family: poppins,sans-serif;
@@ -47,6 +45,7 @@ h1{
    justify-content: center;
    
 }
+
 .gif1{
     width: 500px;
    
@@ -85,6 +84,7 @@ h1{
     align-items: center;
     gap: 12px;
 }
+
 footer{
     display: flex;
     align-items: center;
@@ -96,6 +96,7 @@ footer{
     border-radius: 20px;
 
 }
+
 address {
     background-color: #fdfdfd;
   border: 1px solid #ccc;
@@ -107,10 +108,12 @@ address {
   font-family: 'Poppins', sans-serif;
 
 }
+
 address a {
     color: navy;
     text-decoration: none;
 }
+
 .form {
   max-width: 500px;       
   margin: auto;           
@@ -123,6 +126,7 @@ address a {
 .name{
     margin-right: 50px;
 }
+
 form input{
     width: 50%;
     padding: 10px;
@@ -233,9 +237,11 @@ a:hover{
 .img5 {
     border-radius: 20px;
 }
+
 .features {
     text-align: center;
 }
+
 .cap {
     margin-right: 100px;
     margin-top: 50px;
@@ -257,6 +263,7 @@ a:hover{
 .rocket {
     margin-top: 50px;
 }
+
 .cap:hover{
     background-color: #000080;
     color: white;
@@ -280,6 +287,7 @@ a:hover{
 h1{
     margin-top: 50px;
 }
+
 .product{
     border-color: #000080;
     border-width: 3px;
@@ -315,6 +323,7 @@ label {
     align-items: center;
     
 }
+
 button {
     margin-top: 15px;
     padding: 10px;
@@ -340,10 +349,7 @@ textarea {
 .follow {
     text-align: center;
     justify-content: center;
-    
-    
-    
-    
+        
 }
 .follow1 {
     display: inline-block;
@@ -382,6 +388,7 @@ textarea {
     margin-top: 70px;
     text-align: center;
 }
+
 .line {
     width: 4px;
     height: 400px;
@@ -390,6 +397,7 @@ textarea {
     border-radius: 30px;
 
 }
+
 .name {
     display: flex;
 }
