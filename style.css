@@ -96,6 +96,19 @@ footer{
     border-radius: 20px;
 
 }
+.who{
+    margin-left: 190px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.form-group {
+    display: flex;
+}
+
+.role-selection{
+    display: flex;
+}
+
 address {
     background-color: #fdfdfd;
   border: 1px solid #ccc;
@@ -121,7 +134,9 @@ address a {
   font-family: POPPINS, sans-serif;
 }
 .name{
-    margin-right: 50px;
+    
+    text-decoration: underline;
+    font-weight: bold;
 }
 form input{
     width: 50%;
@@ -302,7 +317,7 @@ h1{
     padding: 20px;
     width: 350px;
     border-radius: 10px;
-    box-shadow: 0 0 15px;
+    box-shadow: navy 0 4px 8px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
