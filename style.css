@@ -1,11 +1,15 @@
+* {
+    font-family: 'poppins';
+}
 nav {
-    text-align: right;
+    margin-left: 60%;
+    display: inline;
 }
 
 header {
     display: flex;
     align-items: center;
-    gap: 10px;
+    
     
 }
 nav a{
