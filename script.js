@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const data = { name, email, number, role, love, opinion };
     try {
-      const res = await fetch("http://127.0.0.1:8000/submit-feedback", {
+      const res = await fetch("http://127.0.0.1:3000/captube-web/contact.html", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)

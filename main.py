@@ -25,7 +25,7 @@ class Feedback(BaseModel):
     opinion: str
 
 
-@app.post("/submit-feedback")
+@app.post("captube-web/contact.html")
 def receive_feedback(feedback: Feedback):
     # Here you could save feedback to a database or process it
     return {"status": "received", "name": feedback.name, "email": feedback.email}
