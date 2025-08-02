@@ -1,11 +1,15 @@
+* {
+    font-family: poppins,sans-serif;
+}
 nav {
-    text-align: right;
+    margin-left: 60%;
+    display: inline;
 }
 
 header {
     display: flex;
     align-items: center;
-    gap: 10px;
+    
     
 }
 nav a{
@@ -41,7 +45,7 @@ h1{
    color: navy;
    align-items: center;
    justify-content: center;
-   gap: 15px;
+   
 }
 .gif1{
     width: 500px;
@@ -146,27 +150,25 @@ a:hover{
 }
 
 .box {
-    display: inline;
+   display: flex;
+    align-items: center;
         
 }
-
 .first {
-    vertical-align: middle;
     width: 400px;
     height: 400px;
-    display: inline;
+    border-radius: 20px;
+    margin-left: 30px;
     box-shadow: 0 8px 16px navy;
-    margin-top: 30px;
-    border-radius: 50px;
-    
-    
 }
+
+
 .one {
     vertical-align: middle;
-    display: inline; 
+    display: flex; 
     font-size: 20px;
-     margin-top: 30px;
-
+    margin-top: 30px;
+    
 }
 .cap {
     border-color: black;
