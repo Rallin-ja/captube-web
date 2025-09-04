@@ -303,18 +303,11 @@ h1{
 }
 
 .product{
-    border-color: #000080;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 20px;
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    align-items: center;
-    margin-left: 525px;
-    font-size: 30px;
-    font-weight: bold;
+    width:250px;
+   
+    border-radius: 30px;
+    margin-left: 30px;
+    box-shadow: 0 8px 16px navy;
     
 }
 
